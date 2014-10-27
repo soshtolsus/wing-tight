@@ -1,0 +1,12 @@
+
+			<div class="vflex">
+				<div class="hflex texty">
+					<div>Your Conservative Choice</div>
+					<div>William (Bill)</div>
+					<div>Kelberlau</div>
+					<div>for Williamson County Sheriff</div>
+				</div>
+				<div class="hflex navbar">
+					<?php include('navbar.html.part'); ?>
+				</div>
+			</div>

@@ -1,12 +1,22 @@
 <html>
 	<head>
-		<?php include('parts/head.html.part'); ?>
+		<?php
+			include("{$_SERVER['DOCUMENT_ROOT']}/parts/head.html.part");
+			echo '';
+			
+			$page_spec = array_merge(array('p'=>'home'), $_GET)['p'];
+			
+			if (strpos($page_spec, '/') === false)
+			{
+				echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/styles/pages/{$page_spec}.css\" />\n";
+			}
+		?>
 	</head>
 	<body>
 		<div class="header">
 			<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/header.html.part"); ?>
 		</div>
-		<div class="center hflex">
+		<div class="center">
 			<div class="page">
 				<?php
 					$page_spec = array_merge(array('p'=>'home'), $_GET)['p'];

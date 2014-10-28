@@ -1,0 +1,9 @@
+.footer
+{
+}
+
+.footer > a
+{
+	display: inline-block;
+	margin: 0px 2rex 0px;
+}

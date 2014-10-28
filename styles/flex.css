@@ -1,0 +1,13 @@
+.hflex
+{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.vflex
+{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}

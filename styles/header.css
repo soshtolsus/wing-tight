@@ -1,0 +1,89 @@
+.header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.header .banner
+{
+	background-image: url('/images/header.background.png');
+	height: 250px;
+	width: 100%;
+	font-size: 2em;
+	overflow: hidden;
+}
+
+.header .texty
+{
+	width: 295px;
+	overflow: hidden;
+}
+
+.header .texty > div:nth-child(1)
+{
+	font-family: Calibri,sans;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0.6ex;
+}
+
+.header .texty > div:nth-child(1) > div:nth-child(1)
+{
+	text-align: left;
+}
+
+.header .texty > div:nth-child(1) > div:nth-child(2)
+{
+	color: rgb(200,0,0);
+	text-align: center;
+}
+
+.header .texty > div:nth-child(1) > div:nth-child(3)
+{
+	text-align: right;
+}
+
+.header .texty > div:nth-child(2)
+{
+	font-size: 0.7em;
+	padding-left: 3ex;
+	font-weight: bold;
+}
+
+.header .texty > div:nth-child(3)
+{
+	font-family: Calibri,sans;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(230,0,0);
+}
+
+.header .texty > div:nth-child(4)
+{
+	font-size: 0.7em;
+}
+
+.header .navbar
+{
+	align-self: flex-end;
+	margin-top: 0.25em;
+	background-color: darkred;
+	padding: 0.5ex;
+}
+
+.header .navbar > a
+{
+	text-decoration: none;
+	border-style: outset;
+	padding: 0.5ex;
+	background-color: darkblue;
+	color: white;
+	font-weight: bold;
+}
+
+.header .navbar > a:hover
+{
+	border-style: inset;
+}

@@ -1,0 +1,34 @@
+.sidebar
+{
+	width: 30ex;
+	font-family: Calibri, sans-serif;
+	align-self: flex-end;
+}
+
+.sidebar *
+{
+	width: 100%;
+	display: block;
+}
+
+.sidebar .title
+{
+	font-size: 1.25em;
+	font-weight: bold;
+	color: red;
+	border-bottom: 0.75ex groove blue;
+}
+
+.sidebar .buttons a
+{
+	border-color: darkred;
+	border-width: 1ex;
+	color: white;
+	background-color: darkblue;
+	font-weight: bold;
+}
+
+.sidebar > .endorsements > .content > div
+{
+	font-weight: bold;
+}

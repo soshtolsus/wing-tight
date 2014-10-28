@@ -2,9 +2,9 @@
 	<head>
 		<?php include('parts/head.html.part'); ?>
 	</head>
-	<body class="vflex">
-		<div class="header hflex">
-			<?php include('parts/header.html.part'); ?>
+	<body>
+		<div class="header">
+			<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/header.html.part"); ?>
 		</div>
 		<div class="center hflex">
 			<div class="page">
@@ -22,11 +22,11 @@
 				?>
 			</div>
 			<div class="sidebar">
-				<?php include('parts/sidebar.html.part'); ?>
+				<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/sidebar.html.part"); ?>
 			</div>
 		</div>
 		<div class="footer hflex">
-			<?php include('parts/footer.html.part'); ?>
+			<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/footer.html.part"); ?>
 		</div>
 	</body>
 </html>

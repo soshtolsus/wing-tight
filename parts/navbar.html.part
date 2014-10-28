@@ -1,6 +1,5 @@
-
-					<a class="button" href="/">Home</a>
-					<a class="button" href="/?p=about">Meet Bill</a>
-					<a class="button" href="/?p=issues">The Issues</a>
-					<a class="button" href="/?p=updates">Campaign Updates</a>
-					<a class="button" href="/?p=events">Upcoming Events</a>
+<a href="/">Home</a>
+					<a href="/?p=about">Meet Bill</a>
+					<a href="/?p=issues">The Issues</a>
+					<a href="/?p=updates">Campaign Updates</a>
+					<a href="/?p=events">Upcoming Events</a>

@@ -3,19 +3,19 @@
 					<div>
 						<div class="title">Get Involved</div>
 						<div class="content">
-							<a href="donate.html">Donate</a>
-							<a href="volunteer.html">Volunteer</a>
-							<a href="subscribe.html">Subscribe</a>
-							<a href="contactus.html">Contact Us</a>
+							<a href="/?p=donate">Donate</a>
+							<a href="/?p=volunteer">Volunteer</a>
+							<a href="/?p=subscribe">Subscribe</a>
+							<a href="/?p=contactus">Contact Us</a>
 						</div>
 					</div>
 					<div>
 						<div class="title">Get Educated</div>
 						<div class="content">
-							<a href="articles.html">Articles</a>
-							<a href="news.html">News</a>
-							<a href="videos.html">Videos</a>
-							<a href="links.html">Links</a>
+							<a href="/?p=articles">Articles</a>
+							<a href="/?p=news">News</a>
+							<a href="/?p=videos">Videos</a>
+							<a href="/?p=links">Links</a>
 						</div>
 					</div>
 				</div>

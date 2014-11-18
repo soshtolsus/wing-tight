@@ -29,7 +29,7 @@
 	font-weight: bold;
 }
 
-.sidebar > .endorsements > .content > div
+.sidebar > .endorsements > .content > *
 {
 	font-weight: bold;
 }

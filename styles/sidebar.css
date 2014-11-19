@@ -32,4 +32,5 @@
 .sidebar > .endorsements > .content > *
 {
 	font-weight: bold;
+	text-decoration: none;
 }

@@ -1,10 +1,12 @@
 <!-- Copyright 2014 Carl Johnson IV -->
 <div class="banner">
 				<div class="texty">
-					<div><div>Your</div><div>Conservative</div><div>Choice</div></div>
-					<div>William (Bill)</div>
-					<div>Kelberlau</div>
-					<div>for Williamson County Sheriff</div>
+					<div class="bill">William (Bill)</div>
+					<div class="kelberlau">Kelberlau</div>
+					<div class="your">Your</div>
+					<div class="adjective">Constitutional</div>
+					<div class="choice">Choice</div>
+					<div class="for">for Williamson County Sheriff</div>
 				</div>
 			</div>
 			<div>

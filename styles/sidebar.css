@@ -3,7 +3,7 @@
 {
 	width: 200px;
 	font-family: Calibri, sans-serif;
-	align-self: flex-end;
+	align-self: flex-start;
 }
 
 .sidebar *

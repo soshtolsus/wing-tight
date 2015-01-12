@@ -1,4 +1,4 @@
-<!-- Copyright 2014 Carl Johnson IV -->
+<!-- Copyright 2014,2015 Carl Johnson IV -->
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset= UTF-8" charset="UTF-8" />
@@ -22,14 +22,15 @@
 			<div class="page">
 				<?php
 					$page_spec = array_merge(array('p'=>'home'), $_GET)['p'];
+					$path = "{$_SERVER['DOCUMENT_ROOT']}/pages/$page_spec.html.part";
 					
-					if (strpos($page_spec, '/') === false)
+					if (strpos($page_spec, '/') === false && file_exists($path))
 					{
-						include("{$_SERVER['DOCUMENT_ROOT']}/pages/$page_spec.html.part");
+						include($path);
 					}
 					else
 					{
-						echo 'no one here but us chickens';
+						include("{$_SERVER['DOCUMENT_ROOT']}/pages/404.html.part");
 					}
 				?>
 			</div>

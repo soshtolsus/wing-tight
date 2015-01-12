@@ -1,4 +1,4 @@
-<!-- Copyright 2014 Carl Johnson IV -->
+<!-- Copyright 2014,2015 Carl Johnson IV -->
 <div class="banner">
 				<div class="texty">
 					<div class="bill">William (Bill)</div>
@@ -13,4 +13,7 @@
 				<div class="navbar buttons">
 					<?php include('navbar.html.part'); ?>
 				</div>
+			</div>
+			<div class="notice">
+				Primary election is in Mar 2016!
 			</div>

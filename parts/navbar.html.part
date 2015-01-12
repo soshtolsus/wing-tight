@@ -1,6 +1,8 @@
-<!-- Copyright 2014 Carl Johnson IV -->
+<!-- Copyright 2014,2015 Carl Johnson IV -->
 <a href="/">Home</a>
 					<a href="/?p=about">Meet Bill</a>
-					<a href="/?p=issues">The Issues</a>
-					<a href="/?p=updates">Campaign Updates</a>
-					<a href="/?p=events">Upcoming Events</a>
+					<!--a href="/?p=issues">Issues</a-->
+					<!--a href="/?p=updates">Updates</a-->
+					<!--a href="/?p=events">Events</a-->
+					<a href="/?p=contact">Contact</a>
+					<a href="/?p=donate">Donate</a>

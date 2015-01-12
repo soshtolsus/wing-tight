@@ -2,5 +2,30 @@
 .page
 {
 	margin-right: 1em;
-	width: 600px;
+	width: 100%;
+}
+
+.page > div
+{
+	width: 100%;
+}
+
+h2
+{
+	text-align: center;
+	font-family: Calibri,sans-serif;
+	font-size: 3em;
+}
+
+.warning
+{
+	font-family: Calibri,sans-serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: red;
+}
+
+.indent
+{
+	margin-left: +4ex;
 }

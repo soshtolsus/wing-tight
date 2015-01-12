@@ -1,6 +1,7 @@
 <!-- Copyright 2014 Carl Johnson IV -->
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset= UTF-8" charset="UTF-8" />
 		<?php
 			include("{$_SERVER['DOCUMENT_ROOT']}/parts/head.html.part");
 			echo '';
@@ -32,9 +33,9 @@
 					}
 				?>
 			</div>
-			<div class="sidebar">
+			<!--div class="sidebar">
 				<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/sidebar.html.part"); ?>
-			</div>
+			</div-->
 		</div>
 		<div class="footer hflex">
 			<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/footer.html.part"); ?>

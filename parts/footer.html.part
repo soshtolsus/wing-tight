@@ -3,3 +3,4 @@
 	<?php include("navbar.html.part"); ?>
 </div>
 <div class="copyright">Website code and design Copyright 2014,2015 Carl Johnson IV</div>
+<div class="paidfor">Paid political advertisement by<br />KELBERLAU Campaign for Sheriff<br />P.O. Box 1694<br />Georgetown, Texas 78627</div>

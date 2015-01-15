@@ -61,6 +61,7 @@
 .header .texty > div.for
 {
 	font-size: 0.6em;
+	margin-top: 0.3ex;
 }
 
 .header .navbar
@@ -92,4 +93,12 @@
 	font-size: 2em;
 	font-weight: bold;
 	padding-top: 0.5ex;
+	text-align: center;
+}
+
+.header .county
+{
+	/*font-size: 1.1em;*/
+	font-weight: bold;
+	display: inline;
 }

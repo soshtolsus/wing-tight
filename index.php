@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset= UTF-8" charset="UTF-8" />
+		<link rel="icon" type="image/png" href="/images/favicon.png" />
 		<?php
 			include("{$_SERVER['DOCUMENT_ROOT']}/parts/head.html.part");
 			echo '';

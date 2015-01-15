@@ -2,3 +2,4 @@
 <div class="navbar">
 	<?php include("navbar.html.part"); ?>
 </div>
+<div class="copyright">Website code and design Copyright 2014,2015 Carl Johnson IV</div>

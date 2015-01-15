@@ -39,3 +39,8 @@ u
 {
 	text-decoration: underline;
 }
+
+blockquote .attribution
+{
+	text-align: right;
+}

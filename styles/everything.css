@@ -5,6 +5,7 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Calibri,sans-serif;
+	font-size: 16px;
 	background-color: rgb(200,220,250);
 	display: flex;
 	flex-direction: column;

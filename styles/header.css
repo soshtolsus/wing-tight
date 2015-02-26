@@ -67,24 +67,28 @@
 .header .navbar
 {
 	align-self: flex-end;
-	margin-top: 0.25em;
-	background-color: darkred;
-	padding: 0.5ex;
+	background-color: darkblue;
+	width: 100%;
+	padding: 0.5ex 0px;
 }
 
 .header .navbar > a
 {
 	text-decoration: none;
-	border-style: outset;
-	padding: 0.5ex;
 	background-color: darkblue;
 	color: white;
 	font-weight: bold;
+	font-size: 1.4em;
 }
 
 .header .navbar > a:hover
 {
-	border-style: inset;
+	color: yellow;
+}
+
+.header .navbar > a:active
+{
+	color: purple;
 }
 
 .header .notice

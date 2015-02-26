@@ -17,25 +17,6 @@ body > div
 	width: 100%;
 }
 
-.buttons a
-{
-	text-decoration: none;
-	border-style: outset;
-	padding: 0.5ex;
-	text-align: center;
-}
-
-.buttons a:hover
-{
-	border-style: inset;
-}
-
-.buttons a:active
-{
-	background-color: black;
-	color: white;
-}
-
 u
 {
 	text-decoration: underline;

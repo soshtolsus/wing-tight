@@ -1,1 +1,28 @@
-/*Copyright 2014 Carl Johnson IV*/
+/*Copyright 2014,2015 Carl Johnson IV*/
+.center .page .callout
+{
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.center .page .callout .wingding
+{
+	display: inline-block;
+}
+
+.center .page .callout .wingding *
+{
+	display: inherit;
+}
+
+.center .page .callout .wingding img
+{
+	height: 2.5em;
+	margin: 0px 1em;
+}
+
+.center .page .callout .wingding h3
+{
+	bottom: +0.75em;
+}

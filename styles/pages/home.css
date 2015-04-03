@@ -4,11 +4,13 @@
 	font-style: italic;
 	text-align: center;
 	margin-bottom: 2em;
+	font-size: 1em;
 }
 
 .center .page .callout .wingding
 {
 	display: inline-block;
+	margin-bottom: 1em;
 }
 
 .center .page .callout .wingding *
@@ -19,10 +21,54 @@
 .center .page .callout .wingding img
 {
 	height: 2.5em;
-	margin: 0px 1em;
 }
 
-.center .page .callout .wingding h3
+.center .page .callout .wingding div
 {
-	bottom: +0.75em;
+	margin-left: 1ex;
+	margin-right: 1ex;
+	font-size: 1.325em;
+	font-weight: bold;
+	position: relative;
+	bottom: 0.5875em;
+}
+
+.center .page .callout .descriptors
+{
+	text-align: left;
+	font-family: "Times New Roman", serif;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.center .page .callout .descriptors > div
+{
+	text-align: left;
+	margin-top: 1em;
+	line-height: 1.3em;
+	margin-left: 2ex;
+}
+
+.center .page .callout .liberty
+{
+	display: inline-block;
+}
+
+.center .page .callout .liberty *
+{
+	display: inherit;
+}
+
+.center .page .callout .liberty > img
+{
+	height: 8em;
+}
+
+.center .page .callout .liberty > div
+{
+	font-size: 1.5em;
+	margin-left: 3ex;
+	position: relative;
+	bottom: 2.4em;
+	text-align: left;
 }

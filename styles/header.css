@@ -5,6 +5,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	font-family: Cablibri,sans-serif;
+	margin-bottom: 1.5em;
 }
 
 .header .banner
@@ -18,7 +19,7 @@
 
 .header .texty
 {
-	width: 295px;
+	width: 310px;
 	overflow: hidden;
 }
 
@@ -34,7 +35,7 @@
 	text-align: right;
 	font-size: 1.5em;
 	font-weight: bold;
-	margin-bottom: 0.6ex;
+	margin-bottom: 0.4ex;
 }
 
 .header .texty > div.your
@@ -49,6 +50,7 @@
 	font-weight: bold;
 	text-align: center;
 	color: rgb(200,0,0);
+	font-size: 1.1em;
 }
 
 .header .texty > div.choice
@@ -56,39 +58,13 @@
 	font-weight: bold;
 	text-align: right;
 	color: rgb(200,0,0);
+	font-size: 1.1em;
 }
 
 .header .texty > div.for
 {
-	font-size: 0.6em;
+	font-size: 0.62em;
 	margin-top: 0.3ex;
-}
-
-.header .navbar
-{
-	align-self: flex-end;
-	background-color: darkblue;
-	width: 100%;
-	padding: 0.5ex 0px;
-}
-
-.header .navbar > a
-{
-	text-decoration: none;
-	background-color: darkblue;
-	color: white;
-	font-weight: bold;
-	font-size: 1.4em;
-}
-
-.header .navbar > a:hover
-{
-	color: yellow;
-}
-
-.header .navbar > a:active
-{
-	color: purple;
 }
 
 .header .notice

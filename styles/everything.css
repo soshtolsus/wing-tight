@@ -4,9 +4,10 @@ body
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 1em;
 	font-family: Calibri,sans-serif;
 	font-size: 16px;
-	background-color: rgb(200,220,250);
+	background-color: rgb(180,200,255);
 	display: flex;
 	flex-direction: column;
 }
@@ -25,4 +26,11 @@ u
 blockquote .attribution
 {
 	text-align: right;
+}
+
+.comingsoon
+{
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: bold;
 }

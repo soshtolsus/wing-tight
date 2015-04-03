@@ -11,7 +11,7 @@
 			
 			if (strpos($page_spec, '/') === false)
 			{
-				echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/styles/pages/{$page_spec}.css\" />\n";
+				echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"styles/pages/{$page_spec}.css\" />\n";
 			}
 		?>
 	</head>
@@ -23,7 +23,7 @@
 			<div class="page">
 				<?php
 					$page_spec = array_merge(array('p'=>'home'), $_GET)['p'];
-					$path = "{$_SERVER['DOCUMENT_ROOT']}/pages/$page_spec.html.part";
+					$path = "pages/$page_spec.html.part";
 					
 					if (strpos($page_spec, '/') === false && file_exists($path))
 					{
@@ -31,7 +31,7 @@
 					}
 					else
 					{
-						include("{$_SERVER['DOCUMENT_ROOT']}/pages/404.html.part");
+						include("pages/404.html.part");
 					}
 				?>
 			</div>
@@ -40,7 +40,7 @@
 			</div-->
 		</div>
 		<div class="footer hflex">
-			<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/footer.html.part"); ?>
+			<?php include("parts/footer.html.part"); ?>
 		</div>
 	</body>
 </html>

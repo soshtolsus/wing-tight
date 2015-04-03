@@ -1,8 +1,10 @@
 <!-- Copyright 2014,2015 Carl Johnson IV -->
-<a href="/">Home</a>
-					<a href="/?p=about">Meet Bill</a>
+<a href="index.php">Home</a>
+					<a href="index.php?p=about">Meet Bill</a>
 					<!--a href="/?p=issues">Issues</a-->
 					<!--a href="/?p=updates">Updates</a-->
 					<!--a href="/?p=events">Events</a-->
-					<a href="/?p=contact">Contact</a>
-					<a href="/?p=donate">Donate</a>
+					<a href="index.php?p=contact">Contact</a>
+					<a href="index.php?p=donate">Donate</a>
+					<a href="index.php?p=home">Issues</a>
+					<a href="index.php?p=home">Media &amp; News</a>

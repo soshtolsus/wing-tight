@@ -1,9 +1,9 @@
 <!-- Copyright 2014 Carl Johnson IV -->
 <link rel="stylesheet" type="text/css" href="/styles/everything.css" />
-		<link rel="stylesheet" type="text/css" href="/styles/flex.css" />
-		<link rel="stylesheet" type="text/css" href="/styles/navbar.css" />
-		<link rel="stylesheet" type="text/css" href="/styles/header.css" />
-		<link rel="stylesheet" type="text/css" href="/styles/center.css" />
-		<link rel="stylesheet" type="text/css" href="/styles/page.css" />
-		<link rel="stylesheet" type="text/css" href="/styles/sidebar.css" />
-		<link rel="stylesheet" type="text/css" href="/styles/footer.css" />
+		<link rel="stylesheet" type="text/css" href="styles/flex.css" />
+		<link rel="stylesheet" type="text/css" href="styles/navbar.css" />
+		<link rel="stylesheet" type="text/css" href="styles/header.css" />
+		<link rel="stylesheet" type="text/css" href="styles/center.css" />
+		<link rel="stylesheet" type="text/css" href="styles/page.css" />
+		<link rel="stylesheet" type="text/css" href="styles/sidebar.css" />
+		<link rel="stylesheet" type="text/css" href="styles/footer.css" />

@@ -1,12 +1,13 @@
 <!-- Copyright 2014,2015 Carl Johnson IV -->
 <div>
+	<h2>Media &amp; News</h2>
 	<?php
 		$paths_to_process = array_filter(glob('media/*'), function($x){return !is_dir($x);});
 		usort($paths_to_process, function($x,$y){return filemtime($x)<filemtime($y);});
 		
 		foreach ($paths_to_process as $path)
 		{
-			echo '<div>';
+			echo '<div class="item">';
 			
 			echo '<div class="title">';
 			echo basename($path);

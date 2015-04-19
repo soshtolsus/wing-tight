@@ -1,0 +1,27 @@
+.center .page
+{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.center .page .item
+{
+	border-radius: 10px;
+	border: 5px solid black;
+	padding: 0.5ex;
+	background-color: rgb(160,180,255);
+	margin: 0.5em 0px;
+}
+
+.center .page .item .title
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.center .page .item .content
+{
+	
+}

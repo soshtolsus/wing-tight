@@ -1,8 +1,6 @@
 <html>
 	<body>
 		<?php
-			echo var_export($_SERVER['DOCUMENT_ROOT']);
-			echo var_export($_POST);
 			if (isset($_FILES) && count($_FILES) > 0)
 			{
 				if ($_FILES['uploaded']['error'] == 0)

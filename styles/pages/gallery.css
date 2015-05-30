@@ -1,1 +1,6 @@
 @import url("medianews.generic.css");
+
+.center .page .item .content img
+{
+	width: 100%;
+}

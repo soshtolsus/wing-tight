@@ -10,7 +10,7 @@
 			echo '<div class="item">';
 			
 			echo '<div class="title">';
-			echo preg_replace('/\.pdf$/', '', basename($path));
+			echo preg_replace('/\.[^\.]+?$/', '', basename($path));
 			echo '</div>';
 			
 			echo '<div class="content">';

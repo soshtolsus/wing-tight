@@ -1,0 +1,25 @@
+<!-- Copyright 2014,2015 Carl Johnson IV -->
+<div>
+	<h2>Gallery</h2>
+	<?php
+		$paths_to_process = array_filter(glob("media/gallery/*"), function($x){return !is_dir($x);});
+		usort($paths_to_process, function($x,$y){return filemtime($x)<filemtime($y);});
+		
+		foreach ($paths_to_process as $path)
+		{
+			echo '<div class="item">';
+			
+			echo '<div class="title">';
+			echo preg_replace('/\.[^\.]+?$/', '', basename($path));
+			echo '</div>';
+			
+			echo '<div class="content">';
+			echo sprintf(
+				'<img src="%1$s" alt="%1$s" />',
+				$path);
+			echo '</div>';
+			
+			echo '</div>';
+		}
+	?>
+</div>

@@ -1,27 +1,33 @@
-.center .page
+.center .page .buttonbar
 {
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
+	height: 10em;
+	width: 100%;
 }
 
-.center .page .item
+.center .page .buttonbar .bigbutton
 {
+	display: inline-block;
+	height: 100%;
+	width: 45%;
 	border-radius: 10px;
-	border: 5px solid black;
-	padding: 0.5ex;
-	background-color: rgb(160,180,255);
-	margin: 0.5em 0px;
-}
-
-.center .page .item .title
-{
+	border: 5px solid rgb(120,140,230);
+	background-color: rgb(120,140,230);
+	margin: 0px 0.5em;
 	text-align: center;
-	font-weight: bold;
-	font-size: 1.4em;
 }
 
-.center .page .item .content
+.center .page .buttonbar .bigbutton a
 {
-	
+	display: table;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+.center .page .buttonbar .bigbutton a div
+{
+	display: table-cell;
+	vertical-align: middle;
 }

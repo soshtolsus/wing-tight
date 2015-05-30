@@ -1,8 +1,8 @@
 <!-- Copyright 2014,2015 Carl Johnson IV -->
 <div>
-	<h2>The Issues</h2>
+	<h2>News</h2>
 	<?php
-		$paths_to_process = array_filter(glob("media/issues/*"), function($x){return !is_dir($x);});
+		$paths_to_process = array_filter(glob("media/news/*"), function($x){return !is_dir($x);});
 		usort($paths_to_process, function($x,$y){return filemtime($x)<filemtime($y);});
 		
 		foreach ($paths_to_process as $path)

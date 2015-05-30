@@ -10,11 +10,18 @@
 			echo '<div class="item">';
 			
 			echo '<div class="title">';
-			echo basename($path);
+			echo preg_replace('/\.pdf$/', '', basename($path));
 			echo '</div>';
 			
 			echo '<div class="content">';
-			include($path);
+			if (preg_match('/\.pdf$/', $path) === 1)
+			{
+				echo '<embed src="'.$path.'" width="100%" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">';
+			}
+			else
+			{
+				include($path);
+			}
 			echo '</div>';
 			
 			echo '</div>';

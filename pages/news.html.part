@@ -17,6 +17,9 @@
 			if (preg_match('/\.pdf$/', $path) === 1)
 			{
 				echo '<embed src="'.$path.'" width="100%" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">';
+				echo sprintf(
+					'<a href="%s">Download Article</a>',
+					$path);
 			}
 			else
 			{

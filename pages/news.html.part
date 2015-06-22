@@ -5,6 +5,11 @@
 		$paths_to_process = array_filter(glob("media/news/*"), function($x){return !is_dir($x);});
 		usort($paths_to_process, function($x,$y){return filemtime($x)<filemtime($y);});
 		
+		if (count($paths_to_process) == 0)
+		{
+			echo '<div class="notice">No articles yet.</div>';
+		}
+		
 		foreach ($paths_to_process as $path)
 		{
 			echo '<div class="item">';
@@ -14,7 +19,7 @@
 			echo '</div>';
 			
 			echo '<div class="content">';
-			if (preg_match('/\.pdf$/', $path) === 1)
+			if (preg_match('/\.pdf$/i', $path) === 1)
 			{
 				echo '<embed src="'.$path.'" width="100%" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">';
 				echo sprintf(

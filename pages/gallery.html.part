@@ -5,6 +5,11 @@
 		$paths_to_process = array_filter(glob("media/gallery/*"), function($x){return !is_dir($x);});
 		usort($paths_to_process, function($x,$y){return filemtime($x)<filemtime($y);});
 		
+		if (count($paths_to_process) == 0)
+		{
+			echo '<div class="notice">No articles yet.</div>';
+		}
+		
 		foreach ($paths_to_process as $path)
 		{
 			echo '<div class="item">';

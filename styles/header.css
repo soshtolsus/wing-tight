@@ -83,3 +83,32 @@
 	font-weight: bold;
 	display: inline;
 }
+
+.header .wingding
+{
+	display: inline-block;
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+.header .wingding *
+{
+	display: inline-block;
+}
+
+.header .wingding img
+{
+	height: 2.5em;
+}
+
+.header .wingding div
+{
+	margin-left: 4ex;
+	margin-right: 4ex;
+	font-size: 1.325em;
+	font-weight: bold;
+	position: relative;
+	bottom: 0.5875em;
+}

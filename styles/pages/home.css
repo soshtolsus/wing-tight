@@ -7,32 +7,6 @@
 	font-size: 1em;
 }
 
-.center .page .callout .wingding
-{
-	display: inline-block;
-	margin-bottom: 1em;
-}
-
-.center .page .callout .wingding *
-{
-	display: inherit;
-}
-
-.center .page .callout .wingding img
-{
-	height: 2.5em;
-}
-
-.center .page .callout .wingding div
-{
-	margin-left: 1ex;
-	margin-right: 1ex;
-	font-size: 1.325em;
-	font-weight: bold;
-	position: relative;
-	bottom: 0.5875em;
-}
-
 .center .page .callout .descriptors
 {
 	text-align: left;

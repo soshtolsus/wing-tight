@@ -11,6 +11,8 @@
 .header .banner
 {
 	background-image: url('/images/header.background.png');
+	background-position: right top;
+	background-repeat: no-repeat;
 	height: 250px;
 	width: 100%;
 	font-size: 2em;

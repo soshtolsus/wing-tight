@@ -1,27 +1,11 @@
 <!-- Copyright 2014 Carl Johnson IV -->
-<div class="links buttons">
-					<div>
-						<div class="title">Get Involved</div>
-						<div class="content">
-							<a href="/?p=donate">Donate</a>
-							<a href="/?p=volunteer">Volunteer</a>
-							<a href="/?p=subscribe">Subscribe</a>
-							<a href="/?p=contactus">Contact Us</a>
-						</div>
-					</div>
-					<div>
-						<div class="title">Get Educated</div>
-						<div class="content">
-							<a href="/?p=articles">Articles</a>
-							<a href="/?p=news">News</a>
-							<a href="/?p=videos">Videos</a>
-							<a href="/?p=links">Links</a>
-						</div>
-					</div>
-				</div>
-				<div class="endorsements">
-					<div class="title">Endorsements</div>
-					<div class="content">
-						<a href="/?p=endorsements.constitutionalsheriffs">Constitutional Sheriffs</div>
-					</div>
-				</div>
+<div>
+					<a href="https://causes.anedot.com/general-fund-c3347b4cea31d0319b2ae">
+						<img src="/images/Donate_button_UP.png" alt="Donate" />
+					</a><br />
+					
+					<!-- this section for the twitter button -->
+					<a href="https://twitter.com/sheriffbill16" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @sheriffbill16</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<!-- end section -->
+</div>

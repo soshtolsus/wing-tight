@@ -2,16 +2,17 @@
 .sidebar
 {
 	width: 200px;
-	font-family: Calibri, sans-serif;
-	align-self: flex-start;
+	/*align-self: flex-start;*/
 }
+
 
 .sidebar *
 {
-	width: 100%;
-	display: block;
+	/*width: 100%;*/
+	display: inline-block;
 }
 
+/*
 .sidebar .title
 {
 	font-size: 1.25em;
@@ -34,3 +35,4 @@
 	font-weight: bold;
 	text-decoration: none;
 }
+*/

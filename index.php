@@ -35,9 +35,9 @@
 					}
 				?>
 			</div>
-			<!--div class="sidebar">
-				<?php //include("{$_SERVER['DOCUMENT_ROOT']}/parts/sidebar.html.part"); ?>
-			</div-->
+			<div class="sidebar">
+				<?php include("{$_SERVER['DOCUMENT_ROOT']}/parts/sidebar.html.part"); ?>
+			</div>
 		</div>
 		<div class="footer hflex">
 			<?php include("parts/footer.html.part"); ?>
